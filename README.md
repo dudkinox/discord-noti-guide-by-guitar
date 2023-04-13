@@ -1,6 +1,6 @@
 # discord-noti
 
-ช้งาน Discord webhook สำหรับส่งข้อความผ่าน PHP ได้ดังนี้:
+ใช้งาน Discord webhook สำหรับส่งข้อความผ่าน PHP:
 
 สร้าง webhook ใน Discord:
 
