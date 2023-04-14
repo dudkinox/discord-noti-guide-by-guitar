@@ -14,3 +14,6 @@
 คลิกที่ "Copy Webhook URL"
 
 แล้วก็ใส่ code ตามนั้นแหละ
+
+
+วิธีแนบ ข้อความ commit ใส่ใน github action = ${{ github.event.head_commit.message }}
