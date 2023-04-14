@@ -19,7 +19,7 @@
 วิธีแนบ ข้อความ commit ใส่ใน github action = ${{ github.event.head_commit.message }}
 เวลาเรียกให้ใช้
 ```
-curl --location 'https://sabaiphone-admin.com/notification-backend.php' \
+curl --location '{{url}}/notification.php' \
 --header 'Content-Type: text/plain' \
 --data '{
     "commit": "\n```feat (UB-00) : :guitar: config massage```"
