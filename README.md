@@ -22,6 +22,6 @@
 curl --location '{{url}}/notification.php' \
 --header 'Content-Type: text/plain' \
 --data '{
-    "commit": "\n```feat (UB-00) : :guitar: config massage```"
+    "commit": "\n```${{ github.event.head_commit.message }}```"
 }'
 ```
