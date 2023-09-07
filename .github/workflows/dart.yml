@@ -14,5 +14,5 @@ jobs:
           --header 'Content-Type: application/json' \
           --header 'Cookie: __cfruid=76888d7ffd99ee8b6171603af5dc4ee125f2a12c-1694110508; __dcfduid=7a4fc2c24daa11eebe841a2eb2a836be; __sdcfduid=7a4fc2c24daa11eebe841a2eb2a836be2c3a4bae4035262740391e0b0c57b5f5539a4c6baf13902223f7917ae86296d2; _cfuvid=byAQ_tNTwGpgfHuXBAGwC8lzUrItMtv1_EoTDduv44g-1694110508816-0-604800000' \
           --data '{
-              "content": "ทดสอบ :guitar:"
+              "content": "${{ github.event.head_commit.message }}"
           }'
