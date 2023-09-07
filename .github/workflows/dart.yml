@@ -1,0 +1,18 @@
+name: noti
+
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  guitar-noti:
+    runs-on: ubuntu-latest
+    steps:
+      - name: setp 1
+        run: |
+          curl --location 'https://discord.com/api/webhooks/1149407001445679187/-9Fg49L05lerESuayhCv4LGm72MHL3w0BGwjXW4Vtvscx0bIOudiqGDKIbC5nm4E0ad_' \
+          --header 'Content-Type: application/json' \
+          --header 'Cookie: __cfruid=76888d7ffd99ee8b6171603af5dc4ee125f2a12c-1694110508; __dcfduid=7a4fc2c24daa11eebe841a2eb2a836be; __sdcfduid=7a4fc2c24daa11eebe841a2eb2a836be2c3a4bae4035262740391e0b0c57b5f5539a4c6baf13902223f7917ae86296d2; _cfuvid=byAQ_tNTwGpgfHuXBAGwC8lzUrItMtv1_EoTDduv44g-1694110508816-0-604800000' \
+          --data '{
+              "content": "ทดสอบ :guitar:"
+          }'
