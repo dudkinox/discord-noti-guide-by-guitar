@@ -17,6 +17,8 @@
 
 
 วิธีแนบ ข้อความ commit ใส่ใน github action = ${{ github.event.head_commit.message }}
+วิธีแนบชื่อคน commit ${{ github.event.head_commit.author.name }}
+
 เวลาเรียกให้ใช้
 ```
 curl --location '{{url}}/notification.php' \
