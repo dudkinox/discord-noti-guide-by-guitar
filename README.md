@@ -15,9 +15,10 @@
 
 แล้วก็ใส่ code ตามนั้นแหละ
 
-
+```
 วิธีแนบ ข้อความ commit ใส่ใน github action = ${{ github.event.head_commit.message }}
 วิธีแนบชื่อคน commit ${{ github.event.head_commit.author.name }}
+```
 
 เวลาเรียกให้ใช้
 ```
